@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <main class="main">
+    <div class="checklist_main">
+      <svg height="60" width="60" ViewBox="0 0 62 62" xmlns="http://www.w3.org/2000/svg">
+        <circle r="30" cx="31" cy="31" stroke="white" stroke-width="1" opacity="50%" fill="transparent" />
+        <circle class="circle_rotate" r="30" cx="31" cy="31" stroke="white" stroke-width="2" stroke-dashoffset="300" stroke-dasharray="314" fill="transparent" />
+        <!-- stroke-dashoffset= 314 - соответствует 0%; 0 - 100% заполнение -->
+        <text class="circle_text" x="16" y="38">0/7</text>
+      </svg>
+      <div class="checklist_text-block">
+        <div class="checklist_text-badge">Чеклист</div>
+        <div class="checklist_text-title">Выполнено: 0 из 7 действий</div>
+        <div class="checklist_text-desc">Следующее действие: Созвониться с клиентом до 23.05.24 12:00</div>
+      </div>
+      <button class="checklist_button">Открыть чеклист</button>
+    </div>
+  </main>
+</body>
+</html>
